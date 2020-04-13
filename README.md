@@ -1,5 +1,4 @@
 # Ariscu-CRUD with Additional Functionality.
-===
 
 ## Intro
 
@@ -16,16 +15,16 @@ First you need to:
 Create a database based on the content in the .env file on a system that is
 running any MYSQL version.
 
-create database to_do_list;
-GRANT ALL PRIVILEGES ON to_do_list.* to 'root'@'localhost';
-exit;
+. ```create database to_do_list;```
+. ```GRANT ALL PRIVILEGES ON to_do_list.* to 'root'@'localhost';```
+. ```exit;```
 
  then
 
-php artisan migrate
+. ```php artisan migrate```
 
 then you can start-up a server
-and walla ... laravel the site is open! ;)
+and walla ... Laravel the site is open! ;)
 
 Then run migrations.
 
